@@ -38,7 +38,7 @@ const TodoItem = ({ todo }) => {
   // HandleDeleteTodo
   const handleDelete = () => {
     dispatch(deleteTodo(todo.id));
-    toast.success("Todo Deleted Successfuly");
+    toast.success("задача удалена");
   };
 
   // HandleUpdateTodo
